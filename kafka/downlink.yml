@@ -1,0 +1,10 @@
+api:
+  downlink:
+    log_path: "./logs/downlink.log"
+    key: 'qQo/5QYrV2C6z/dzq3BT76msgynltWG4/uTw3kdyApU='
+    database:
+      host: 'packetthings-mysql-1.mysql.database.azure.com'
+      name: 'packetthings_user'
+      user: 'wRpv5lUu9dtjCtUGMR'
+      password: 'packetthings'
+      table: 'downlink'

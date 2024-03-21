@@ -1,0 +1,10 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://20.188.114.120:8080
+functions:
+  receive-produce:
+    lang: python3
+    handler: ./receive-produce
+    image: giegrajo/receive-produce-test:latest
+

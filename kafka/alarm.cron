@@ -1,0 +1,2 @@
+*/5 * * * * cd /home/cycloaaa/Documents/api-project/kafka/; mv alarm/5m/AlarmList.csv alarm/5m/tosend/AlarmList_$(date +%m%d%Y_%H%M%S).csv >> alarm/5m/cronjob.log 2>&1
+0 0 * * * cd /home/cycloaaa/Documents/api-project/kafka/; mv alarm/1d/AlarmList.csv alarm/1d/tosend/AlarmList_$(date +%m%d%Y_%H%M%S).csv >> alarm/1d/cronjob.log 2>&1
